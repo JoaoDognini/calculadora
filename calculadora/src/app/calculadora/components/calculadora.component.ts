@@ -29,7 +29,7 @@ export class CalculadoraComponent implements OnInit {
   }
 
   adicionarNumero(numero: string): void{
-    if(this.operacao = null){
+    if(this.operacao === null){
       this.numero1 = this.concatenarNumero(this.numero1, numero);
     } else {
       this.numero2 = this.concatenarNumero(this.numero2, numero);
